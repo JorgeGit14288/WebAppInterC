@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 21-oct-2016 13:31:25 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.entitys.Usuarios" table="Usuarios" catalog="intercity" optimistic-lock="version">
+        <id name="telefono" type="string">
+            <column name="telefono" length="15" />
+            <generator class="assigned" />
+        </id>
+        <property name="codigoArea" type="int">
+            <column name="codigo_area" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="30" not-null="true" />
+        </property>
+        <property name="nombre" type="string">
+            <column name="Nombre" length="60" />
+        </property>
+        <property name="pais" type="string">
+            <column name="Pais" length="20" />
+        </property>
+        <property name="status" type="string">
+            <column name="status" length="25" />
+        </property>
+    </class>
+</hibernate-mapping>
