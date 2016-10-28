@@ -19,6 +19,7 @@
         <title>Usuarios Registrados</title>
     </head>
     <body>
+        </p>Bienvenido ${sessionScope.usuario}</p>
         <h1>Usuarios Registrados</h1>
 
         <div id="content">

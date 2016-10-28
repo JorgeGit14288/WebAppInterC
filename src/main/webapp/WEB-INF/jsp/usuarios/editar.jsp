@@ -11,6 +11,7 @@
     </head>
     <div class="container">
         <body>
+            </p>Bienvenido ${sessionScope.usuario}</p>
             <form class="form-Registro" method="POST" action="validar.htm" >
                 <h2 class="form-signin-heading">DATOS DEL USUARIOS </h2>                
                 <label for="codigoArea"  >Codigo de Area</label>
